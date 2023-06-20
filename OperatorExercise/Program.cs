@@ -13,8 +13,14 @@
             {
                 Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder} ");
             }
+            AreaOfCircle(20);
+            Console.WriteLine(AreaOfCircle(20));
 
-            
+        }
+        public static double AreaOfCircle(double radius)
+        {
+            double answer = Math.PI * Math.Pow(radius, 2);
+            return answer;
         }
     }
 }
