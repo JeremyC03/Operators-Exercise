@@ -13,8 +13,11 @@
             {
                 Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder} ");
             }
+
+            Console.WriteLine("What is the radius of your circle?");
+            Console.WriteLine("20");
             AreaOfCircle(20);
-            Console.WriteLine(AreaOfCircle(20));
+            Console.WriteLine($"The area of a circle of 20 is {AreaOfCircle(20)}");
 
         }
         public static double AreaOfCircle(double radius)
