@@ -8,10 +8,10 @@ namespace OperatorExercise
 {
     internal class Circle
     {
-        public static void AreaOfCircle()
+        public static double AreaOfCircle(double radius)
         {
-            Console.WriteLine("What is the radius of your circle?");
-            var radius = double.Parse(Console.ReadLine());
+            double answer = Math.PI * Math.Pow(radius, 2);
+            return answer;
         }
     }
 }
