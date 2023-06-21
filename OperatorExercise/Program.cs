@@ -18,7 +18,7 @@
             double radius = double.Parse(Console.ReadLine());
 
             var answer = Circle.AreaOfCircle(radius);
-            Console.WriteLine($"The area of a circle of 20 is {answer}");
+            Console.WriteLine($"The area of a circle of {radius} is {answer}");
 
         }
     }
